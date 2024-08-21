@@ -1,0 +1,125 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+</head>
+
+<body>
+  <main id="main">
+    <div id="title-div">
+      <h1 id="title">APJ Abdul Kalam</h1>
+      <p id="description">The
+        <i>People's President</i>
+      </p>
+    </div>
+    <div id="img-div">
+      <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/The_President_Dr._A.P.J_Abdul_Kalam_authorizing_the_Prime_Minister_designate_Dr._Manmohan_Singh_to_form_the_next_Government_in_New_Delhi_on_May_19%2C_2004.jpg/506px-The_President_Dr._A.P.J_Abdul_Kalam_authorizing_the_Prime_Minister_designate_Dr._Manmohan_Singh_to_form_the_next_Government_in_New_Delhi_on_May_19%2C_2004.jpg" alt="APJ Abdulkalam">
+      <div id="img-caption">
+        <p id="img-cap">
+          The President Kalam authorising the Prime Minister designate Manmohan Singh to form the next Government in New
+          Delhi on 19 May 2004
+        <p id="copyright">©Wikipedia</p>
+        </p>
+      </div>
+    </div>
+    <div id="yap">
+      <p id="tribute-info">
+        Dr. APJ Abdulkalam was one of India's most influential scientists with many good intentions.
+
+      <ul id="list">
+        <li> Born in 15 October, 1931 in Rameswaram. During his schooling period, he was described of only having
+          average grades but he had a hardworking and bright mind with a strong desire to learn. He then proceeded to
+          specialize in Physics and graduated at 1954.
+        </li>
+        <li>
+          After graduating, he pursued his interest in aerospace engineering at Madras Institute of Techology. He
+          graduted at 1960.
+        </li>
+        <li>
+          As soon as he graduated, AbdulKalam joined the Aeronautical Development Establishment of the Defence Research
+          and Development Organisation as a scientist, designing a small hovercraft. However, his job at the DRDS did not interest him and as a result, he worked under renowned space scientist Vikram Sarabhai at INCOSPAR.
+        </li>
+        <li>In 1969, he was interviewed by ISRO (Indian Space Research Organization) and joined the organization. He directed 2 projects and conducted valuable research during his time there.</li>
+
+        <li>After his time at ISRO, Kalam ran a presidency campaign which he won and was announced as the President of India, from 2002-2007.
+          During his time as president, he had done many noble acts which benifited the country.
+        </li>
+
+        <li>However, after his first term as President he declined to run again EVER.</li>
+        <li>AbdulKalam had passed at 2015 at the age of 83. His death was a great sadness to all of India as they had lost a kind and guiding soul.</li>
+      </ul>
+    </div>
+    </p>
+    <p id="link">You can learn more about one of India's most influential people on his
+      <a id="tribute-link" href="https://en.wikipedia.org/wiki/A._P._J._Abdul_Kalam" target="_blank"
+        value="trib-link">Wikipedia</a>.
+    </p>
+  </main>
+
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+
+
+h1, #description {
+  text-align: center;
+} 
+
+h1 {
+  font-family: Tahoma;
+  font-size: 40px;
+  color: white;
+}
+
+#description {
+  font-size: 20px;
+  font-family: Arial;
+  color: yellow
+}
+
+#title-div {
+  padding-top: 10px;
+  border: 3px solid grey;
+  background-color: black;
+}
+#img-div {
+  border: 2px solid black;
+  background-color: beige;
+}
+
+#copyright {
+  padding: ;
+  font-size: 10px;
+}
+
+#yap {
+  padding: 10px 0;
+  font-size: 20px;
+  font-family: Arial Narrow;
+  border: 2px dashed grey;
+}
+
+#link {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+** end of undefined **
+
