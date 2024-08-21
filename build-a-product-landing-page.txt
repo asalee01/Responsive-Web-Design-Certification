@@ -1,0 +1,237 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Product Landing Page</title>
+</head>
+
+<body>
+  <main>
+    <div class="overlap">
+      <header id="header">
+        <div class="brand-and-image">
+          <img id="header-img" alt="brand image" src="https://yt3.googleusercontent.com/e73fOqV6Gd8uMpP94Gcp41tKeFX5xmGy1bd3m0fgBnN9F42mSqiaoaOIwRCGdLopnpzkiJ24X5M=s900-c-k-c0x00ffffff-no-rj">
+          <p class="brand">GamePulse</p>
+        </div>
+        <section class="nav-section">
+          <nav id="nav-bar">
+            <ul class="links">
+              <li><a class="nav-link" href="#us">About us</a></li>
+              <li><a class="nav-link" href="#plan">Our plans</a></li>
+              <li><a class="nav-link" href="#join">Join us</a></li>
+            </ul>
+          </nav>
+        </section>
+      </header>
+      </div>
+    
+<h2 id="us">About Us</h2>
+    <p id="about-us">
+
+      Welcome to GamePulse, your ultimate destination for discovering and enjoying the latest and greatest in gaming! At
+      GamePulse, we believe that every gamer deserves access to a vast world of immersive experiences, cutting-edge
+      titles, and classic favorites—all at their fingertips. That's why we've created a subscription service that puts
+      the pulse of the gaming industry in your hands.
+    </p>
+    <p id="about-us">
+      With GamePulse, you can explore a diverse library of games spanning all genres, from adrenaline-pumping action
+      adventures to thought-provoking indie gems. Whether you're a casual gamer looking for a fun way to unwind or a
+      hardcore player seeking your next epic challenge, GamePulse has something for everyone.
+    </p>
+    <p id="about-us">
+      Our platform offers flexible subscription plans that cater to your gaming habits, ensuring you have access to the
+      titles you love without breaking the bank. Stay ahead of the curve with early access to new releases, exclusive
+      in-game content, and regular updates that keep your gaming experience fresh and exciting.
+    </p>
+    <p id="about-us">
+      Join the GamePulse community today and tap into the heart of gaming!
+    </p>
+    <!-- Learned this from this website: https://www.w3schools.com/html/html_youtube.asp -->
+
+
+    <p id="yt-intro">
+      Example Video:
+    </p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kuPPZCtLX4w?si=JyGfjfsjXyvjZIFf"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen id="video"></iframe>
+    <p id="contact">Here is an example of one of the games we provide with our subscription.</p>
+
+<p id="plan">Our plans:</p>
+<div class="plans">
+    <div class="weekly">
+      <p>You can pay us weekly an amount depending on the games you pick, with no possible addition of games until next billing cycle. (Most expensive)
+        </p>
+    </div>
+    <div class="monthly">
+      <p>
+      You can pay us montly an amount depending on the games you pick, you would have to pay an extra fee for adding games.</p> 
+    </div>
+    <div class="yearly">
+      <p>
+      You can pay us yearly an amount depending on the games you pick and be allowed to add a maximum of 20 games. (Best value.) </p>
+    </div>
+
+</div>
+<p id="contact">To know the prices please give us your email and we will send our collection of games and prices.</p>
+
+
+
+
+<p id="join">Join Us!</p>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label for="submit">If you are interested, please let us know!<input name="email" id="email" type="email" required placeholder="Enter your email"></label>
+      <input id="submit" type="submit" value="SUBMIT" class="btn" ></input>
+    </form>
+
+
+  </main>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (max-width:1000px) {
+  header {
+    font-family: Arial;
+  }
+}
+body, html {
+  overflow-x: hidden;
+}
+
+* {
+  background-color: #5f43b2;
+}
+#header {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  box-shadow: 0px 4px 2px -2px gray;
+}
+
+main {
+  padding-top: 150px; /* Adjust based on the height of your header */
+}
+
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-right: 15px;
+}
+
+.brand-and-image {
+  display: flex;
+  align-items: center;
+}
+
+#header-img {
+  width: 50px;
+  height: 50px;
+}
+
+.brand {
+  margin-left: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.brand {
+  margin-left: 10px;
+  font-family: Arial;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#about-us, #about-us-1 {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+
+}
+
+#us, #yt-intro, #join, #plan   {
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: bold;
+  color: orange;
+}
+
+.plans {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+#contact {
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: normal;
+  color: white;
+
+}
+
+.monthly, .yearly, .weekly {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(100% / 3);
+  border: 5px solid #000;
+  max-width: 200px;
+  text-align: center;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+label {
+  font-size: 20px;
+  color: white;
+}
+#email {
+  background-color: white;
+  width: 30%;
+  text-align: center;
+
+}
+
+#submit {
+  display: block;
+  background-color: yellow;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+
+** end of undefined **
+
