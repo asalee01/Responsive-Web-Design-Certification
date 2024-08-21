@@ -1,0 +1,263 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>My Portfolio Website</title>
+</head>
+
+<body>
+  <main>
+
+    <nav id="navbar">
+      <ul>
+
+        <ul class="apps">
+
+          <li class="app facebook">
+            <a id="profile-link" class="fa fa-facebook" href="https://www.facebook.com/athif.saleem.3" target="_blank"></a>
+          </li>
+
+          <li class="app">
+            <a id="profile-link" href="https://github.com/asalee01" target="_blank" class="fa fa-github" style="font-size:35px">
+            </a>
+          </li>
+
+          <li class="app">
+            <a id="profile-link" target="_blank" href="in/athif-saleem-a76747274" class="fa fa-linkedin">
+            </a>
+          </li>
+
+          <li class="app">
+            <a id="profile-link" target="_blank" href="https://www.instagram.com/athif_2005/" class="fa fa-instagram"></a>
+            </li>
+        </ul>
+
+
+        <ul class="links">
+          <li class="topic">
+            <a href="#about-me">About Me</a>
+          </li>
+          <li class="topic">
+            <a href="#projects">My Work</a>
+          </li>
+          <li class="topic">
+            <a href="#contact-me">Contact Me</a>
+          </li>
+        </ul>
+      </ul>
+    </nav>
+
+    <section id="welcome-section">
+
+      <h1 id="welcome-text">
+        Hi, my name is Athif
+      </h1>
+
+      <h2 id="about-me" class="about h2">About Me</h2>
+      <p class="about-text">
+        I’m a 2nd-year Computer Science major at UBC, currently focused on web development and JavaScript algorithms. I’ve completed Harvard's CS50X course, covering Java, SQL, C, and Python. I have a keen interest in machine learning and AI, and I’m also exploring the basics of cybersecurity through a specialized course. My goal is to apply my skills in developing innovative solutions that bridge the gap between technology and everyday life. Alongside my academic pursuits, I have a big passion for sports like football and cricket, and I love taking on fitness challenges.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2 class="project h2">My Projects</h2>
+
+      <div class="project-tile"></div>
+      <p class="project-desc"><a href="https://github.com/sweetmidnights/T1-008-DataScienceProject-32"  target="_blank">Classification of Stars: </a>I have conducted a comprehensive analysis involving the utilization of a dataset sourced from the internet to discern the
+classification of stars as either pulsar stars or non-pulsar stars. The process encompassed several key stages, commencing with
+the importation of the dataset into R, followed by meticulous data tidying and fine-tuning procedures. Subsequently, leveraging
+the K-Nearest Neighbor algorithm, predictions were formulated based on the refined dataset to categorize stars accurately. This was done together as the team, where I handled the coding for the whole project.</p>
+      <div class="project-tile"></div>
+      <p class="project-desc"><a href="">Virtual Cookbook:</a> A perfect app for students and busy individuals, offering a simple way to add, edit, and remove recipes. It also includes useful filters based on available ingredients or time constraints. This app is especially helpful for those who don't particularly enjoy cooking while doubling as a cookbook.</p>
+    </section>
+
+    <section id="contact-me">
+
+      <h2 class="contact h2">Let's work together!!</h2>
+      <p> If you are interested in working with me. Please don't hesitate to enter the form below and I will get back to yo as soon as possible!!</p>
+      <p class="quote">"Great teamwork is the only way we create the breakthroughs that define our career" <p class="author"><i>- Pat Riley</i></p></p>
+      
+      <form class="email-form">
+        <label for="name">Full Name: <input type="text" placeholder="optional"></input></label>
+      
+        <label for="email-address">Enter your email here: <input id="email" type="email" required></input></label>
+        <button type="submit" name="submit" id="submit">Submit</button>
+
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  box-sizing: border-box;
+}
+
+  @media (max-width: 2000px) {
+  #welcome-section {
+    padding-top: 50px;
+  }
+}
+
+#navbar {
+  margin-top: -11px;
+  padding: 0;
+  width: 100%;
+  height: 12%;
+  position: fixed;
+  background-color: #212a31;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links  {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 25px;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.app {
+  display: flex;
+  font-size: 35px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.topic {
+  list-style: none;
+  display: inline-block;
+  border-right: 2px solid red;
+  padding-right: 10px;
+}
+
+.apps {
+  width: 20%;
+  margin-left: -70px;
+}
+
+.fa-facebook {
+  color: 	#4267B2;
+}
+
+.fa-linkedin {
+  color: #0077B5
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 5px 15px 15px ;
+  font-family: sans-serif;
+
+}
+
+#welcome-section {
+
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #124e66;
+}
+
+#welcome-text {
+  text-align: center;
+  font-size: 75px;
+  font-family: Georgia, serif;
+}
+
+.h2 {
+  font-size: 30px;
+  color: linen;
+  font-weight: bold;
+  border: 1px solid yellow
+}
+
+.about-text {
+  padding-top: 20px;
+  width: 75%;
+  font-size: 20px;
+  color: #c2b9b0;
+  margin: auto;
+  text-align: center;
+}
+
+#projects {
+  margin-top: -20px;
+  margin-bottom: -20px;
+  width: 100%;
+  background-color: #748d92;
+  padding-bottom: 10px;
+ }
+
+ .project-desc {
+   font-family: Arial;
+   color: #2e3944;
+ }
+
+#contact-me {
+  width: 100%;
+  background-color: #964734;
+}
+
+.quote, .author {
+  font-family: Arial;
+  text-align: center;
+}
+
+.quote {
+  font-size: 20px;
+  font-family: Calbiri;
+}
+
+label {
+  display: block;
+  padding-top: 10px;
+}
+
+.email-form {
+  margin: auto;
+  padding: 5px;
+  width: 75%;
+  background-color: #ac8968;
+}
+
+#submit {
+  --width: 75%;
+  text-align: center;
+  margin-left: calc(var(--width) / 2);
+  background-color: #93785b;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+** end of undefined **
+
