@@ -1,0 +1,259 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- <meta name="viewport" content="device=device-width, initial-scale=1"> -->
+  <link rel="stylesheet" href="styles.css">
+  <title>Technical Documentation Page</title>
+</head>
+
+<body>
+  <nav id="navbar">
+      <header>Coding Languages</header>
+      <ul>
+        <li><a class="nav-link" href="#introduction">Introduction</a></li>
+
+        <li><a class="nav-link" href="#html">HTML</a></li>
+
+        <li><a class="nav-link" href="#java">Java</a></li>
+
+        <li><a class="nav-link" href="#javascript">JavaScript</a></li>
+
+        <li><a class="nav-link" href="#css">CSS</a></li>
+
+        <li><a class="nav-link" href="#r">R</a></li>
+      </ul>
+    </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="introduction">
+      <header>Introduction</header>
+      <p>Coding languages, also known as programming languages, are the tools developers use to create software, websites, and applications. These languages provide a set of rules and syntax that allow humans to communicate instructions to computers. Popular coding languages include Python, Java, and JavaScript, each with its own strengths and uses. Nevertheless, coding brings a lot of benefits on the table, here are some: </p>
+      <ul>
+        <li><i>Problem-Solving Skills:</i> Coding enhances your ability to think logically and solve complex problems by breaking them down into manageable tasks.</li>
+        <li><i>Creativity and Innovation:</i> Coding allows you to create your own software, websites, and applications, turning your ideas into reality.</li>
+        <li><i>Automation of Tasks:</i> With coding, you can automate repetitive tasks, improving efficiency and productivity in both personal and professional settings.</li>
+        <li><i>Global Collaboration:<i> Coding enables you to work on open-source projects and collaborate with developers worldwide, contributing to shared knowledge and innovation.</li>
+        <li><i>Adaptability:</i> Learning to code teaches you how to learn new skills quickly, making you adaptable to new technologies and trends in an ever-evolving digital world.</li>
+      </ul>
+<p id="filler">Here are some popular coding languages that are used worldwide!</p>
+    </section>
+
+    <section class="main-section" id="html">
+      <header>HTML</header>
+      <p>
+HTML, or HyperText Markup Language, is the foundational language used to create and structure content on the web. It provides the basic framework for web pages by defining elements like headings, paragraphs, links, images, and more. HTML uses a system of tags and attributes to organize and display content, allowing browsers to render web pages correctly. However, HTML is only one part of basic web development.</p>
+      </section>
+
+    <section class="main-section" id="css">
+      <header>CSS</header>
+      <p>CSS, or Cascading Style Sheets, is the styling language used to control the appearance and layout of web pages. While HTML provides the structure and content, CSS is responsible for the visual presentation, allowing developers to separate the design from the content. With CSS, you can specify colors, fonts, spacing, and how elements are positioned on the page, making it a critical tool for creating visually appealing and user-friendly websites.</p>
+      <p>In summary, CSS is what transforms plain HTML into beautiful, engaging websites. It gives developers the tools to create sophisticated layouts, ensure consistency across pages, and adapt designs to different devices. Mastering CSS is crucial for anyone involved in web design and development, as it is the key to creating visually compelling and responsive web experiences.</p>
+      
+    </section>
+
+    <section class="main-section" id="javascript">
+      <header>JavaScript</header>
+      <p>JavaScript is a powerful programming language primarily used to add interactivity and dynamic behavior to websites. Unlike HTML, which structures content, and CSS, which styles it, JavaScript allows you to create engaging user experiences by manipulating the HTML and CSS on the fly. It can handle everything from simple tasks like form validation and displaying alerts to more complex functions like creating animations, dynamically updating content, and interacting with external APIs. JavaScript is a versatile language that runs directly in the browser, making it an essential tool for front-end web development.</p>      
+      <p>JavaScript runs directly in the user's web browser, making it possible to create responsive and interactive experiences without needing to constantly communicate with the server. This reduces load times and enhances the user experience.</p>
+    </section>
+
+    <section class="main-section" id="java">
+      <header>Java</header>
+      <p>Java is a widely-used, high-level programming language known for its portability, object-oriented principles, and extensive use in web and enterprise applications. It is designed to be platform-independent, meaning you can write Java code once and run it anywhere that supports Java.</p>
+      <p id="code-text">
+        Declaring an integer variable:
+      </p>
+      <code>
+        int age = 25;
+      </code>
+
+      <p id="code-text">
+        Declaring a double variable:
+      </p>
+      <code>
+        double salary = 50000.75;</code>
+
+      <p id="code-text">
+        Declaring a character (char) variable:
+      </p>
+      <code>
+        char grade = 'A';
+      </code>
+
+      <p id="code-text">
+        Declaring a boolean (true/false) variable:
+      </p>
+      <code>
+        boolean abc = "true";
+      </code>
+
+      <p id="code-text">
+        Declaring a String
+      </p>
+      <code>
+        String def = "hello everyone!!";
+      </code>
+      
+      <p></p>
+      
+    </section>
+
+    <section class="main-section" id="r">
+      <header>R</header>
+      <p>R is a programming language and software environment primarily used for statistical computing and data analysis. It provides a wide variety of statistical and graphical techniques and is widely used among statisticians and data miners. R is known for its flexibility and the extensive set of packages available for various types of data analysis.</p>
+      <p>
+        R is designed for statistical computing and has built-in functions for various statistical methods, including linear and nonlinear modeling, time-series analysis, and hypothesis testing.
+      </p>
+      <code></code>
+    </section>
+
+  </main>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+  
+}
+
+@media only screen and (max-width: 815px) {
+  #navbar ul {
+    height: 200px;
+    width: 40%;
+    border: 1px solid black;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+}
+
+body {
+  font-family: Arial;
+  background-image: 
+}
+
+nav {
+  display: block;
+  position: fixed;
+  min-width: 150px;
+  width: 250px;
+  height: 100%;
+  border-right: 3px solid grey;
+}
+
+/* #navbar > ul {
+  padding: 0;
+
+} */
+
+#navbar  li {
+  color: black;
+  border: 1px invisible black;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+header {
+  font-family: Times New Roman;
+  font-size: 35px;
+  padding: 5px;
+  text-align: center;
+}
+
+#main-doc {
+  position: absoute;
+  margin-left: 255px;
+  background-image: url(https://w0.peakpx.com/wallpaper/336/395/HD-wallpaper-code-programming-language-programming-programmers-javascript-resolution.jpg);
+}
+
+#main-doc header {
+  text-align: left;
+    color: yellow;
+    font-weight: bold; 
+
+}
+
+section p {
+  color: white;
+  font-family: sans-serif;
+  font-size: 17px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 80%;
+  font-weight: bold;
+}
+
+section ul {
+  margin-left: 25px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+
+section li {  padding-top: 5px;
+padding-bottom: 5px;
+  width: 70%;
+  color: white;
+}
+
+
+#introduction {
+  font-family: Helevtica;
+  font-weight: bold;
+}
+
+#introduction header {
+    color: beige;
+}
+
+#navbar header {
+  font-family: Arial;
+}
+
+#filler {
+  font-size: 10px;
+  text-align: center;
+}
+
+code {
+  margin-left: 30px;
+  color: white;
+}
+
+#code-text {
+  font-size: 15px;
+  font-family: Calibri;
+  color: white;
+  font-style: normal;
+  padding-top: 10px;
+
+}
+
+
+
+
+
+** end of undefined **
+
